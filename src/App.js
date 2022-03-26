@@ -7,6 +7,7 @@ function App() {
     <div className="App">
      
       <h1>this is my counter app am a rock star</h1>
+      
       <Counter/>
 
      

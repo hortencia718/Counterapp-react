@@ -23,13 +23,22 @@ class Counter extends Component {
         })
     }
 
+   reset =() =>{
+        this.setState({
+            count:this.state.count 
+        })
+    }
+
+
+   
 
     render(){
         return(
             <div>
                 <p> this is the current count:{this.state.count}</p>
                 <button onClick ={this.increment}>Increment</button>
-                <button>Decrement</button>
+                <button onClick={this.decrement}>Decrement</button>
+                <button onClick={this.reset}>Reset </button>
             </div>
         )
     }
