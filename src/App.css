@@ -9,16 +9,31 @@ body{
 
 button{
   padding: 10px;
-  color: rgb(128, 19, 0);
-  margin: 4px;
+  color: rgb(128, 19, 0);  margin: 6px;  font-size: 22px;  border-radius: 4px; 
+  cursor: pointer;
+  border-color:rgb(212, 74, 74);
+  
 }
+
+p{
+  color: #ffff; font-size: 20px;  text-shadow: 2px 2px rgb(67, 65, 66);
+  cursor: pointer;
+}
+
+img{
+border: 14px solid pink ;
+}
+
+
+
+
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 } */
 
-.App-header {
+/* .App-header {
   background-color: #7396dd;
   min-height: 100vh;
   display: flex;
@@ -27,8 +42,5 @@ button{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: rgb(31, 24, 24);
-}
+} */
 
-.App-link {
-  color: #33b9df;
-}
